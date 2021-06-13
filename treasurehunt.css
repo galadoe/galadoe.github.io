@@ -1,0 +1,69 @@
+body{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/211/605/non_2x/beach-with-pirate-ship-at-daytime-scene-in-cartoon-style-free-vector.jpg");
+}
+h1{
+  animation: bounceIn 4s ease-in;
+  animation-timing-function:ease-in;
+  color: #e3a740;
+  font-size: 75px;
+  text-align: center;
+}
+h2{
+  font-size: 45px;
+  text-align: center;
+}
+ul{
+  opacity: .70;
+  background-color: #F3F3F3;
+}
+#ruleSetList{
+  width: 400px;
+  margin:auto;
+  list-style: none;
+  text-align: center;
+  padding-right: 42px;
+}
+#ruleSet{
+  text-align: center;
+  font-size: 30px;
+}
+#RestartButton{
+  text-align: center;
+}
+button:hover{
+  color: crimson;
+}
+button{
+  color: white;
+  background-color: #39e3bb;
+  height: 50px;
+  width:150px;
+  font-size: 20px
+}
+#table-container{
+  display: flex;
+  justify-content: center;
+}
+td{
+  border: 2px solid black;
+  width: 200px;
+  height:200px;
+}
+td:hover{
+  color: red;
+  background-image:url("https://media.istockphoto.com/photos/cross-sign-picture-id177747282?k=6&m=177747282&s=612x612&w=0&h=hca7ckBAkQXz1LmSTQNXcNKKpUnwLSDrPg3cGeCFgeM=" );
+  background-size: cover;
+}
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
