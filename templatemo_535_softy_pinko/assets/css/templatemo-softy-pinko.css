@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #3ea6b4;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -646,7 +646,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/first_banner.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -859,7 +859,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/new_banner.jpg);
   z-index: 2;
   top: -20%;
   left: -20%;
