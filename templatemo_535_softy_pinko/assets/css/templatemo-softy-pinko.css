@@ -146,6 +146,7 @@ body {
 
 .left-heading .section-title {
   font-weight: 500;
+  text-align: center;
   font-size: 24px;
   line-height: 42px;
   color: #1e1e1e;
@@ -647,7 +648,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/first_banner.svg);
+  background-image: url(../images/first_banner.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -772,7 +773,8 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  /* background-color: #ff589e; */
+  background-color: #17a9ef;
 }
 
 .features-small-item .icon {
@@ -786,7 +788,8 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #3ea6b4;
+  /* background: #8261ee; */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1445,7 +1448,8 @@ footer
 ---------------------------------------------
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #FF6200 0%, #FD9346 91%);
+  /* background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%); */
   padding-top: 30px;
 }
 
@@ -1461,8 +1465,9 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
-   text-align: center;
+  /* color: #9d5bd9; */
+  color: #3ea6b4;
+  text-align: center;
   background-color: #fff;
   width: 36px;
   height: 36px;
