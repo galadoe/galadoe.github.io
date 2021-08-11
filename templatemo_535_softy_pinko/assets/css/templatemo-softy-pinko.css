@@ -452,7 +452,8 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  /* color: #ff589e; */
+  color: #3ea6b4;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -1482,7 +1483,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  /* background-color: #ff589e; */
+  background-color: #17a9ef;
   color: #fff;
 }
 
