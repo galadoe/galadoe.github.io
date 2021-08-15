@@ -327,14 +327,15 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  /* background-color: #8261ee; */
+  background-color: #086875;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #3EA6B4;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -345,7 +346,8 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  /* background-color: #ff589e; */
+  background-color: #086875;
 }
 
 button.main-button {
@@ -355,7 +357,8 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  /* background-color: #8261ee; */
+  background-color: #3EA6B4;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -366,7 +369,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #086875;
 }
 
 
@@ -775,7 +778,7 @@ features
 
 .features-small-item:hover .icon {
   /* background-color: #ff589e; */
-  background-color: #17a9ef;
+  background-color: #086875;
 }
 
 .features-small-item .icon {
